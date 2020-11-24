@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/quiz.css" /> 
+  </head>
+
+  <body>
+    <header>
+      <div class="navigation">
+        <a href="/index.html">Home</a>
+        <a href="./library.html">Library</a>
+        <a href="./history.html">History</a>
+        <a href="./quiz.html">Quiz</a>
+        <a href="./about.html">About</a>
+      </div>
+    </header>
+
+    <main>
+      <div class=main>
+        <div class="title">
+          <h1>Which Famous Female Author Are You?</h1>
+          <img src="/img/book.jpg" alt="Open Book" width="50%" height="50%">
+        </div>
+
+        <form id="form1">
+          <p class="question">How would you describe yourself?</p>
+          <div class=radioAnswers>
+            <label><input type="radio" name="personality" id="adventurous" value="2" />Adventurous</label>
+            <label><input type="radio" name="personality" id="dramatic" value="3" />Dramatic</label>
+            <label><input type="radio" name="personality" id="quiet" value="1" />Quiet</label>
+          </div>
+
+          <p class="question">Where do you prefer to read?</p>
+          <div class="radioAnswers">
+            <label><input type="radio" name="place" id="beach" value="1" />At the beach</label>
+            <label><input type="radio" name="place" id="woods" value="2" />In the woods</label>
+            <label><input type="radio" name="place" id="bed" value="3" />In bed</label>
+          </div>
+
+          <p class="question">Which is your favourite season?</p>
+          <div class="radioAnswers">
+            <label><input type="radio" name="season" id="autumn" value="3" />Autumn</label>
+            <label><input type="radio" name="season" id="summer" value="1" />Summer</label>
+            <label><input type="radio" name="season" id="winter" value="2" />Winter</label>
+          </div>
+
+          <p class="question">What's your favourite genre?</p>
+          <div class="radioAnswers">
+            <label><input type="radio" name="genre" id="thriller" value="3" />Thriller</label>
+            <label><input type="radio" name="genre" id="fantasy" value="2" />Fantasy</label>
+            <label><input type="radio" name="genre" id="poetry" value="1" />Poetry</label>
+          </div>
+
+          <p class="question">Choose your favorite colour:</p>
+          <div class="radioAnswers">
+            <label><input type="radio" name="color" id="black" value="2" />Black</label>
+            <label><input type="radio" name="color" id="red" value="1" />Red</label>
+            <label><input type="radio" name="color" id="white" value="3" />White</label>
+          </div>
+
+          <p class="question">Pick a book to read:</p>
+          <div class="radioAnswers">
+            <label><input type="radio" name="book" id="handmaid" value="2" />The Handmaid's Tale by Margaret Atwood</label>
+            <label><input type="radio" name="book" id="hope" value="1" />"Hope" is the thing with feathers by Emily Dickinson</label>
+            <label><input type="radio" name="book" id="wuthering" value="3" />Wuthering Heights by Emily Brontë</label>
+          </div>
+      
+          <button type="submit" value="Submit" class="button">Submit</button>
+        </form>
+
+        <p id="answer"></p>
+        <div id="answerImg"></div>
+        <p id="answer2"></p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <a href="https://codefirstgirls.org.uk/">Thank you to Code First Girls!</a>
+      </div>
+    </footer>
+
+    <script src="/js/quiz.js"></script>
+  </body>
+</html>

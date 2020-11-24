@@ -1,0 +1,62 @@
+body{
+    font-family: 'Cabin';
+    color: black;
+    background-color: powderblue;
+    padding: 0px 80px;
+}
+
+
+.navigation{
+    background-color: darkslateblue;
+    padding: 40px 390px;
+}
+
+.navigation a {
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.navigation a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.footer {
+    background-color: darkslateblue;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.footer a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.main-body-history {
+    background-color: white;
+    padding: 50px 30px;
+}
+
+.main-title-history {
+    font-weight: bolder;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.subtitle-history {
+    font-weight: bold;
+}
+
+.list-history {
+    font-style: italic;
+}
